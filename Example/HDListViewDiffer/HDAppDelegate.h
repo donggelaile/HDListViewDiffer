@@ -1,0 +1,15 @@
+//
+//  HDAppDelegate.h
+//  HDListViewDiffer
+//
+//  Created by chenhaodong on 10/17/2019.
+//  Copyright (c) 2019 chenhaodong. All rights reserved.
+//
+
+@import UIKit;
+
+@interface HDAppDelegate : UIResponder <UIApplicationDelegate>
+
+@property (strong, nonatomic) UIWindow *window;
+
+@end
