@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = 'HDListViewDiffer'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of HDListViewDiffer.'
+  s.summary          = '滑动列表diff组件'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -18,7 +18,7 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
+  轻松实现滑动列表diff，动画更新UI从此so easy
                        DESC
 
   s.homepage         = 'https://github.com/chenhaodong/HDListViewDiffer'
