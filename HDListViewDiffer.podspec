@@ -21,11 +21,11 @@ Pod::Spec.new do |s|
   轻松实现滑动列表diff，动画更新UI从此so easy
                        DESC
 
-  s.homepage         = 'https://github.com/chenhaodong/HDListViewDiffer'
+  s.homepage         = 'https://github.com/donggelaile/HDListViewDiffer'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'chenhaodong' => '519623144@qq.com' }
-  s.source           = { :git => 'https://github.com/chenhaodong/HDListViewDiffer.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/donggelaile/HDListViewDiffer.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '8.0'
