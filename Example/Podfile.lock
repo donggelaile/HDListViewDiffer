@@ -1,0 +1,16 @@
+PODS:
+  - HDListViewDiffer (0.1.0)
+
+DEPENDENCIES:
+  - HDListViewDiffer (from `../`)
+
+EXTERNAL SOURCES:
+  HDListViewDiffer:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  HDListViewDiffer: b460e273e4f85f11298be4385fd42c237f9da3d0
+
+PODFILE CHECKSUM: aec184be213d31dfcede5a8b423025103d48a595
+
+COCOAPODS: 1.7.5

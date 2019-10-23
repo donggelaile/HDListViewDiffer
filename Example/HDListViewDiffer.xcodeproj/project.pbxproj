@@ -7,6 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		28826C2F2359A7B400FEEB14 /* NSArray+HDHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 28826C2E2359A7B400FEEB14 /* NSArray+HDHelper.m */; };
+		28AC5DEE235EC4B400657ACE /* DemoTableVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 28AC5DED235EC4B400657ACE /* DemoTableVC.m */; };
+		28AC5DF1235EC4EB00657ACE /* DemoTableVCCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 28AC5DF0235EC4EB00657ACE /* DemoTableVCCell.m */; };
+		28AC5DF4235EC5BF00657ACE /* DemoTableCellModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 28AC5DF3235EC5BF00657ACE /* DemoTableCellModel.m */; };
+		28F5E723235965250007214F /* Demo1VC.m in Sources */ = {isa = PBXBuildFile; fileRef = 28F5E722235965240007214F /* Demo1VC.m */; };
+		28F5E7262359655F0007214F /* DemoBaseVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 28F5E7252359655F0007214F /* DemoBaseVC.m */; };
+		28F5E729235969BE0007214F /* Demo1VCModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 28F5E728235969BE0007214F /* Demo1VCModel.m */; };
+		28F5E72C23596A7B0007214F /* DemoBaseCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 28F5E72B23596A7B0007214F /* DemoBaseCell.m */; };
+		28F5E72F23598E0E0007214F /* DemoBaseModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 28F5E72E23598E0E0007214F /* DemoBaseModel.m */; };
 		6003F58E195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
 		6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58F195388D20070C39A /* CoreGraphics.framework */; };
 		6003F592195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
@@ -41,7 +50,25 @@
 		1316B382089A7A209989D0C0 /* Pods-HDListViewDiffer_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HDListViewDiffer_Example.release.xcconfig"; path = "Target Support Files/Pods-HDListViewDiffer_Example/Pods-HDListViewDiffer_Example.release.xcconfig"; sourceTree = "<group>"; };
 		14322198EDDFDDD2CAC85D85 /* Pods_HDListViewDiffer_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HDListViewDiffer_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		14B4DE11570CB4DABA047C24 /* Pods-HDListViewDiffer_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HDListViewDiffer_Example.debug.xcconfig"; path = "Target Support Files/Pods-HDListViewDiffer_Example/Pods-HDListViewDiffer_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		48727B5CDB92C422B0C250ED /* HDListViewDiffer.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = HDListViewDiffer.podspec; path = ../HDListViewDiffer.podspec; sourceTree = "<group>"; };
+		28826C2D2359A7B400FEEB14 /* NSArray+HDHelper.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSArray+HDHelper.h"; sourceTree = "<group>"; };
+		28826C2E2359A7B400FEEB14 /* NSArray+HDHelper.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSArray+HDHelper.m"; sourceTree = "<group>"; };
+		28AC5DEC235EC4B400657ACE /* DemoTableVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DemoTableVC.h; sourceTree = "<group>"; };
+		28AC5DED235EC4B400657ACE /* DemoTableVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DemoTableVC.m; sourceTree = "<group>"; };
+		28AC5DEF235EC4EB00657ACE /* DemoTableVCCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DemoTableVCCell.h; sourceTree = "<group>"; };
+		28AC5DF0235EC4EB00657ACE /* DemoTableVCCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DemoTableVCCell.m; sourceTree = "<group>"; };
+		28AC5DF2235EC5BF00657ACE /* DemoTableCellModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DemoTableCellModel.h; sourceTree = "<group>"; };
+		28AC5DF3235EC5BF00657ACE /* DemoTableCellModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DemoTableCellModel.m; sourceTree = "<group>"; };
+		28F5E721235965240007214F /* Demo1VC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Demo1VC.h; sourceTree = "<group>"; };
+		28F5E722235965240007214F /* Demo1VC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Demo1VC.m; sourceTree = "<group>"; };
+		28F5E7242359655F0007214F /* DemoBaseVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DemoBaseVC.h; sourceTree = "<group>"; };
+		28F5E7252359655F0007214F /* DemoBaseVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DemoBaseVC.m; sourceTree = "<group>"; };
+		28F5E727235969BE0007214F /* Demo1VCModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Demo1VCModel.h; sourceTree = "<group>"; };
+		28F5E728235969BE0007214F /* Demo1VCModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Demo1VCModel.m; sourceTree = "<group>"; };
+		28F5E72A23596A7B0007214F /* DemoBaseCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DemoBaseCell.h; sourceTree = "<group>"; };
+		28F5E72B23596A7B0007214F /* DemoBaseCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DemoBaseCell.m; sourceTree = "<group>"; };
+		28F5E72D23598E0E0007214F /* DemoBaseModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DemoBaseModel.h; sourceTree = "<group>"; };
+		28F5E72E23598E0E0007214F /* DemoBaseModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DemoBaseModel.m; sourceTree = "<group>"; };
+		48727B5CDB92C422B0C250ED /* HDListViewDiffer.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = HDListViewDiffer.podspec; path = ../HDListViewDiffer.podspec; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* HDListViewDiffer_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HDListViewDiffer_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6003F58F195388D20070C39A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -61,12 +88,12 @@
 		6003F5B9195388D20070C39A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		6003F5BB195388D20070C39A /* Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Tests.m; sourceTree = "<group>"; };
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
-		698D2E278A0E147D99BED8F1 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		698D2E278A0E147D99BED8F1 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A510C9B03DEAF71EBF906D8B /* Pods-HDListViewDiffer_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HDListViewDiffer_Tests.debug.xcconfig"; path = "Target Support Files/Pods-HDListViewDiffer_Tests/Pods-HDListViewDiffer_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		A79F6AC2A36E7CAF7662C6AD /* Pods-HDListViewDiffer_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HDListViewDiffer_Tests.release.xcconfig"; path = "Target Support Files/Pods-HDListViewDiffer_Tests/Pods-HDListViewDiffer_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		C7752227758E201C8E9BA1C8 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		C7752227758E201C8E9BA1C8 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,6 +122,45 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		28AC5DEB235EC49B00657ACE /* Demo2 */ = {
+			isa = PBXGroup;
+			children = (
+				28AC5DEC235EC4B400657ACE /* DemoTableVC.h */,
+				28AC5DED235EC4B400657ACE /* DemoTableVC.m */,
+				28AC5DEF235EC4EB00657ACE /* DemoTableVCCell.h */,
+				28AC5DF0235EC4EB00657ACE /* DemoTableVCCell.m */,
+				28AC5DF2235EC5BF00657ACE /* DemoTableCellModel.h */,
+				28AC5DF3235EC5BF00657ACE /* DemoTableCellModel.m */,
+			);
+			path = Demo2;
+			sourceTree = "<group>";
+		};
+		28F5E71F235965090007214F /* Demos */ = {
+			isa = PBXGroup;
+			children = (
+				28F5E7242359655F0007214F /* DemoBaseVC.h */,
+				28F5E7252359655F0007214F /* DemoBaseVC.m */,
+				28F5E72A23596A7B0007214F /* DemoBaseCell.h */,
+				28F5E72B23596A7B0007214F /* DemoBaseCell.m */,
+				28F5E72D23598E0E0007214F /* DemoBaseModel.h */,
+				28F5E72E23598E0E0007214F /* DemoBaseModel.m */,
+				28F5E720235965130007214F /* Demo1 */,
+				28AC5DEB235EC49B00657ACE /* Demo2 */,
+			);
+			path = Demos;
+			sourceTree = "<group>";
+		};
+		28F5E720235965130007214F /* Demo1 */ = {
+			isa = PBXGroup;
+			children = (
+				28F5E721235965240007214F /* Demo1VC.h */,
+				28F5E722235965240007214F /* Demo1VC.m */,
+				28F5E727235969BE0007214F /* Demo1VCModel.h */,
+				28F5E728235969BE0007214F /* Demo1VCModel.m */,
+			);
+			path = Demo1;
+			sourceTree = "<group>";
+		};
 		6003F581195388D10070C39A = {
 			isa = PBXGroup;
 			children = (
@@ -137,6 +203,9 @@
 				873B8AEA1B1F5CCA007FD442 /* Main.storyboard */,
 				6003F5A5195388D20070C39A /* HDViewController.h */,
 				6003F5A6195388D20070C39A /* HDViewController.m */,
+				28826C2D2359A7B400FEEB14 /* NSArray+HDHelper.h */,
+				28826C2E2359A7B400FEEB14 /* NSArray+HDHelper.m */,
+				28F5E71F235965090007214F /* Demos */,
 				71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */,
 				6003F5A8195388D20070C39A /* Images.xcassets */,
 				6003F594195388D20070C39A /* Supporting Files */,
@@ -193,7 +262,6 @@
 				A510C9B03DEAF71EBF906D8B /* Pods-HDListViewDiffer_Tests.debug.xcconfig */,
 				A79F6AC2A36E7CAF7662C6AD /* Pods-HDListViewDiffer_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -248,6 +316,9 @@
 				LastUpgradeCheck = 0720;
 				ORGANIZATIONNAME = chenhaodong;
 				TargetAttributes = {
+					6003F589195388D20070C39A = {
+						DevelopmentTeam = Q45PTLH5G9;
+					};
 					6003F5AD195388D20070C39A = {
 						TestTargetID = 6003F589195388D20070C39A;
 					};
@@ -258,6 +329,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -364,9 +436,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				28F5E7262359655F0007214F /* DemoBaseVC.m in Sources */,
+				28F5E729235969BE0007214F /* Demo1VCModel.m in Sources */,
+				28AC5DEE235EC4B400657ACE /* DemoTableVC.m in Sources */,
+				28AC5DF1235EC4EB00657ACE /* DemoTableVCCell.m in Sources */,
+				28F5E72C23596A7B0007214F /* DemoBaseCell.m in Sources */,
+				28AC5DF4235EC5BF00657ACE /* DemoTableCellModel.m in Sources */,
+				28F5E72F23598E0E0007214F /* DemoBaseModel.m in Sources */,
 				6003F59E195388D20070C39A /* HDAppDelegate.m in Sources */,
 				6003F5A7195388D20070C39A /* HDViewController.m in Sources */,
 				6003F59A195388D20070C39A /* main.m in Sources */,
+				28F5E723235965250007214F /* Demo1VC.m in Sources */,
+				28826C2F2359A7B400FEEB14 /* NSArray+HDHelper.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -494,6 +575,7 @@
 			baseConfigurationReference = 14B4DE11570CB4DABA047C24 /* Pods-HDListViewDiffer_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = Q45PTLH5G9;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "HDListViewDiffer/HDListViewDiffer-Prefix.pch";
 				INFOPLIST_FILE = "HDListViewDiffer/HDListViewDiffer-Info.plist";
@@ -510,6 +592,7 @@
 			baseConfigurationReference = 1316B382089A7A209989D0C0 /* Pods-HDListViewDiffer_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = Q45PTLH5G9;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "HDListViewDiffer/HDListViewDiffer-Prefix.pch";
 				INFOPLIST_FILE = "HDListViewDiffer/HDListViewDiffer-Info.plist";
