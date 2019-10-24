@@ -58,6 +58,11 @@ static NSString * HDGetDataIdentifier(id<HDListViewDifferProtocol> data)
     }];
     NSMutableDictionary *newIndexDic = @{}.mutableCopy;
     [newArr enumerateObjectsUsingBlock:^(id<HDListViewDifferProtocol>  _Nonnull obj, NSUInteger idx, BOOL * _Nonnull stop) {
+        if (newIndexDic[HDGetDataIdentifier(obj)]) {
+            //存在相同元素
+            _isExistEqualItemInOldOrNewArr = YES;
+            *stop = YES;
+        }
         newIndexDic[HDGetDataIdentifier(obj)] = @(idx);
     }];
     
