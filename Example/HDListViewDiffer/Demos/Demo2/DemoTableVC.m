@@ -60,29 +60,24 @@
     NSArray *newArr = [[self.dataArr shuffle] randomDeleteCount:2];
     newArr = [self addNewItemWithCount:3 toArr:newArr];
 
-    [self.tableV hd_reloadWithSection:0 oldData:self.dataArr newData:newArr rowAnimation:UITableViewRowAnimationFade sourceDataChangeCode:^{
+    [self.tableV hd_reloadWithSection:0 oldData:self.dataArr newData:newArr rowAnimation:UITableViewRowAnimationFade sourceDataChangeCode:^(NSArray<id<HDListViewDifferProtocol>> * _Nonnull newArr) {
         self.dataArr = newArr;//数据源的变更必须放到这里
-    } dataChangeFinishCallback:^{
+    } animationFinishCallback:nil];
 
-    }];
 }
 - (void)shuffleBtnClick
 {
     NSArray *newArr = [self.dataArr shuffle];
-    [self.tableV hd_reloadWithSection:0 oldData:self.dataArr newData:newArr rowAnimation:UITableViewRowAnimationFade sourceDataChangeCode:^{
+    [self.tableV hd_reloadWithSection:0 oldData:self.dataArr newData:newArr rowAnimation:UITableViewRowAnimationFade sourceDataChangeCode:^(NSArray<id<HDListViewDifferProtocol>> * _Nonnull newArr) {
         self.dataArr = newArr;//数据源的变更必须放到这里
-    } dataChangeFinishCallback:^{
-
-    }];
+    } animationFinishCallback:nil];
 }
 - (void)addBtnClick
 {
     NSArray *newArr = [self addNewItemWithCount:3 toArr:self.dataArr];
-    [self.tableV hd_reloadWithSection:0 oldData:self.dataArr newData:newArr rowAnimation:UITableViewRowAnimationFade sourceDataChangeCode:^{
+    [self.tableV hd_reloadWithSection:0 oldData:self.dataArr newData:newArr rowAnimation:UITableViewRowAnimationFade sourceDataChangeCode:^(NSArray<id<HDListViewDifferProtocol>> * _Nonnull newArr) {
         self.dataArr = newArr;//数据源的变更必须放到这里
-    } dataChangeFinishCallback:^{
-
-    }];
+    } animationFinishCallback:nil];
 
 }
 - (NSArray*)addNewItemWithCount:(NSInteger)count toArr:(NSArray*)arr
@@ -124,11 +119,9 @@
     NSMutableArray *newArr = self.dataArr.mutableCopy;
     [newArr removeObjectAtIndex:indexPath.row];
     
-    [tableView hd_reloadWithSection:indexPath.section oldData:self.dataArr newData:newArr rowAnimation:UITableViewRowAnimationAutomatic sourceDataChangeCode:^{
-        self.dataArr = newArr;
-    } dataChangeFinishCallback:^{
-        
-    }];
+    [self.tableV hd_reloadWithSection:0 oldData:self.dataArr newData:newArr rowAnimation:UITableViewRowAnimationFade sourceDataChangeCode:^(NSArray<id<HDListViewDifferProtocol>> * _Nonnull newArr) {
+        self.dataArr = newArr;//数据源的变更必须放到这里
+    } animationFinishCallback:nil];
 }
 /*
 #pragma mark - Navigation

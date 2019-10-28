@@ -48,8 +48,10 @@
 }
 - (nonnull __kindof UICollectionViewCell *)collectionView:(nonnull UICollectionView *)collectionView cellForItemAtIndexPath:(nonnull NSIndexPath *)indexPath {
     DemoBaseCell*cell = [collectionView dequeueReusableCellWithReuseIdentifier:@"DemoBaseCell" forIndexPath:indexPath];
+    
     DemoBaseModel *m = self.dataArr[indexPath.item];
     cell.titleL.text = m.showText;
+    cell.contentView.backgroundColor = m.bgColor;
     return  cell;//子类重写
 }
 

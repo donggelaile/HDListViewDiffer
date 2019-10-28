@@ -12,6 +12,7 @@ NS_ASSUME_NONNULL_BEGIN
 
 @interface DemoBaseModel : NSObject
 @property (nonatomic, strong) NSString *showText;
+@property (nonatomic, strong) UIColor *bgColor;
 @end
 
 NS_ASSUME_NONNULL_END

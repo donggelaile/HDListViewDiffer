@@ -11,6 +11,6 @@
 @implementation Demo1VCModel
 - (NSString *)hdDiffIdentifier
 {
-    return @([self hash]).stringValue;
+    return [@([self hash]).stringValue stringByAppendingString:self.showText];
 }
 @end
